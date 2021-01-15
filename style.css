@@ -1,0 +1,32 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #333;
+  color:#fff;
+}
+.textarea{
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  border-radius: 0px 20px;
+  outline: none;
+}
+.textarea:focus{
+  box-shadow: 2px 3px 5px royalblue;
+}
+#preview {
+  padding: 40px;
+  background-color:rgb(185,148,213) ;
+  color:#000;
+  border-radius: 20px 0px;
+  font-size: 1.4rem;
+
+}
+#preview pre{
+  background-color: #fff;
+  padding: 20px;
+}
